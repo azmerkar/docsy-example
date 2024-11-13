@@ -1,4 +1,4 @@
-FROM floryn90/hugo:ext-alpine
+# Dockerfile
+FROM alpine:3.12
+CMD ["echo", "Hello from Kaniko!"]
 
-RUN apk add git && \
-  git config --global --add safe.directory /src
